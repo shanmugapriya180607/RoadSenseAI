@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# RoadSense AI generated / local artifacts
+database/*.db
+dashboard/*.html
+dashboard/*.csv
+docs/*.png
+
+# Model weights (large binaries) — keep the folder, ignore the weights
+models/*.pt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

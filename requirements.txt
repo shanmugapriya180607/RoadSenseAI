@@ -1,0 +1,23 @@
+# RoadSense AI — Python dependencies
+# Tested with Python 3.11+ on Windows 11.
+#
+# Install everything with:
+#     pip install -r requirements.txt
+#
+# Note: sqlite3 and pathlib are part of the Python standard library and do
+# NOT need to be installed via pip. They are listed in the project spec for
+# completeness only.
+
+# --- Core AI / vision ---
+ultralytics>=8.2.0        # YOLOv8 (pulls in torch/torchvision automatically)
+opencv-python>=4.9.0      # webcam + video frame capture and drawing
+numpy>=1.26.0             # array math
+
+# --- Dashboard / UI ---
+streamlit>=1.33.0         # interactive web dashboard
+pandas>=2.1.0             # tabular data + history table
+folium>=0.15.0            # interactive hazard map
+
+# --- Alerts / geo ---
+pyttsx3>=2.90             # offline text-to-speech voice alerts
+geopy>=2.4.0              # geodesic distance for dedup + proximity alerts
