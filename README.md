@@ -178,7 +178,7 @@ protected dashboard; **Log out** is in the sidebar.
 
 ---
 
-## 🎬 Demo Instructions (for judges / presentation)
+## 🎬 Demo Instructions 
 
 1. Run `streamlit run dashboard.py`. You land on the **Home** page.
 2. Click **Sign In** and log in with `admin` / `admin123` (or sign up). The
